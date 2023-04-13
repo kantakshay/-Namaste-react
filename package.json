@@ -2,7 +2,6 @@
   "name": "class2-3",
   "version": "1.0.0",
   "description": "my first webapp",
-  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"parcel index.html",
