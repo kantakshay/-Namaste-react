@@ -2,10 +2,12 @@
   "name": "class2-3",
   "version": "1.0.0",
   "description": "my first webapp",
-  "main": "App.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"parcel index.html",
+    "build": "parcel build index.html"
+    },
   "repository": {
     "type": "git",
     "url": "https://kantakshay/Namaste-react.git"
@@ -14,5 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
